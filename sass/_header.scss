@@ -44,14 +44,14 @@
 
     &::before,
     &::after {
-      content: "";
+      content: '';
       display: block;
       height: 1px;
       background-color: currentColor;
     }
   }
 
-  &__seenon-logo {
+  &__seenon-logos {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 3rem;

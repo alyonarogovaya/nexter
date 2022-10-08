@@ -160,7 +160,7 @@ body {
     font-size: 1.6rem;
     color: #aaa; }
     .header__seenon-text::before, .header__seenon-text::after {
-      content: "";
+      content: '';
       display: block;
       height: 1px;
       background-color: currentColor; }
@@ -214,7 +214,8 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 6rem;
-  align-items: start; }
+  align-items: start;
+  padding: 0 1rem; }
 
 .feature {
   display: grid;
@@ -284,7 +285,8 @@ body {
   margin: 15rem 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  gap: 7rem; }
+  gap: 7rem;
+  padding: 0 1rem; }
 
 .home {
   background-color: #f9f7f6;
